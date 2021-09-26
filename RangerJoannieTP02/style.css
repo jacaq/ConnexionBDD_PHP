@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  background-color: #536369;
+}
+
+article {
+  background-color: aquamarine;
+  /*width: 100vh;*/
+  width: 80%;
+  height: 60vh; /*100%;*/
+  border-style: solid black 1px;
+  margin: 1vh 1vh 0 1vh;
+  padding: 3px;
+  background-color: #7ea8b6;
+  min-height: fit-content;
+}
+
+form {
+  flex-direction: column;
+  background-color: white;
+  border: groove 3px;
+  height: 60vh;
+  /*width: 35vh;*/
+  width: 20%;
+  text-align: left;
+  padding-left: 3px;
+  margin-top: 1vh;
+  min-width: fit-content;
+}
+
+.modify {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  background-color: #7ea8b6;
+  margin-top: 0;
+  overflow: visible;
+  min-height: fit-content;
+}
+
+input {
+  border-radius: 5px;
+}
+
+p {
+  flex-direction: column;
+  margin: 5px;
+  min-height: fit-content;
+}
+
+.ajout {
+  color: #1a4250;
+  font-size: small;
+}
+.pas_ajout {
+  color: rgb(161, 8, 8);
+  font-size: small;
+}
+
+.erreur {
+  flex-direction: row;
+  font-weight: bold;
+  color: red;
+}
+
+.monArticle {
+  background-color: white;
+  padding: 5px;
+  width: auto;
+  height: auto;
+}
+
+textarea {
+  border: 1px solid #aaa;
+  border-radius: 4px; /*rounded border*/
+  color: #000;
+  width: 98%;
+  height: 80%;
+  min-height: 30vh;
+  padding: 3px;
+}
+
+header {
+  font-size: medium;
+  font-weight: bold;
+  padding: 3px;
+}
+
+footer {
+  font-size: xx-small;
+  color: #363f42;
+  padding-left: 4px;
+  overflow: visible;
+  min-height: fit-content;
+  background-color: #7ea8b6;
+}
